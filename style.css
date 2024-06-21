@@ -68,4 +68,28 @@ li{
   font-size: small;
   line-height: 15px;
 }
-
+.features{
+  border: 2px dotted var(--color_primary);
+  text-align: center;
+  padding: 15px 0px;
+  line-height: 16px;
+}
+.features h2{
+  margin-bottom: 10px;
+font-size: large;}
+.feature {
+  font-size: small;
+}
+.feature button{
+  font-size: x-small;
+  height: 13px;
+  width: 55px;
+  padding:0px;
+}
+footer{
+  border: 2px dotted var(--color_primary);
+  margin-top:12%;
+  padding: 10px;
+  text-align: center;
+  font-size: small;
+}
