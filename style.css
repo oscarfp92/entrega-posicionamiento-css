@@ -26,11 +26,21 @@ h1{
 }
 header{
   margin-bottom: 10px;
+  position: fixed;
+  margin-top: 0px;
+  top: 0vh;
+  width: 100%;
+background-color: #000000;
+z-index: 100;
+
 }
 .content{
   border: 2px dotted var(--color_primary);
   padding: 10px;
   padding: 10px 10px;
+  position: relative;
+  margin-top: 90px;
+  z-index: 0;
 }
 .content>h2{
   margin-bottom: 0px;
@@ -89,7 +99,11 @@ font-size: large;}
 footer{
   border: 2px dotted var(--color_primary);
   margin-top:12%;
+  margin-bottom: 0px;
   padding: 10px;
   text-align: center;
   font-size: small;
+  position: fixed;
+  width: 100%;
+
 }
